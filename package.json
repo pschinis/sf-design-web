@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^5.0.0"
+  },
+  "scripts": {
+    "compile:sass": "node-sass app.scss app.css"
+  },
+}

@@ -1,0 +1,296 @@
+@font-face {
+    font-family: "FontAwesome";
+    src: url("/fonts/fontawesome-webfont.eot");
+    src: url("/fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), 
+    url("/fonts/fontawesome-webfont.woff2") format("woff2"), 
+    url("/fonts/fontawesome-webfont.woff") format("woff"), 
+    url("/fonts/fontawesome-webfont.ttf") format("truetype"), 
+    url("/fonts/fontawesome-webfont.svg#fontawesomeregular") format("svg");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'icomoon';
+    src:  url('/fonts/icomoon.eot?i6vc6a');
+    src:  url('/fonts/icomoon.eot?i6vc6a#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf?i6vc6a') format('truetype'),
+    url('/fonts/icomoon.woff?i6vc6a') format('woff'),
+    url('/fonts/icomoon.svg?i6vc6a#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  @keyframes fa-spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(359deg);
+      transform: rotate(359deg);
+    }
+  }
+  
+  .fa-spin {
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-shopping-basket:before {
+    content: "\e93b";
+  }
+  .icon-shopping-basket-light:before {
+    content: "\e93c";
+  }
+  .icon-user-plus-light:before {
+    content: "\e93a";
+  }
+  .icon-bars:before {
+    content: "\e930";
+  }
+  .icon-dumbbell:before {
+    content: "\e931";
+  }
+  .icon-home:before {
+    content: "\e932";
+  }
+  .icon-search:before {
+    content: "\e933";
+  }
+  .icon-utensils-alt:before {
+    content: "\e934";
+  }
+  .icon-home-light:before {
+    content: "\e935";
+  }
+  .icon-utensils-alt-light:before {
+    content: "\e936";
+  }
+  .icon-dumbbell-light:before {
+    content: "\e937";
+  }
+  .icon-bars-light:before {
+    content: "\e938";
+  }
+  .icon-search-light:before {
+    content: "\e939";
+  }
+  .icon-logo:before {
+    content: "\e900";
+  }
+  .icon-logo-outline:before {
+    content: "\e901";
+  }
+  .icon-logo-old:before {
+    content: "\e92a";
+  }
+  .icon-measuring-tape:before {
+    content: "\e902";
+  }
+  .icon-run:before {
+    content: "\e903";
+  }
+  .icon-get-stronger:before {
+    content: "\e904";
+  }
+  .icon-look-better-naked:before {
+    content: "\e905";
+  }
+  .icon-fit-toned:before {
+    content: "\e906";
+  }
+  .icon-build-muscle:before {
+    content: "\e907";
+  }
+  .icon-double-up-caret:before {
+    content: "\e908";
+  }
+  .icon-single-up-caret:before {
+    content: "\e909";
+  }
+  .icon-triple-up-caret:before {
+    content: "\e90a";
+  }
+  .icon-barbell:before {
+    content: "\e90b";
+  }
+  .icon-pull-up:before {
+    content: "\e90c";
+  }
+  .icon-push-up:before {
+    content: "\e90d";
+  }
+  .icon-sprinter:before {
+    content: "\e90e";
+  }
+  .icon-dumbell:before {
+    content: "\e90f";
+  }
+  .icon-dinner:before {
+    content: "\e910";
+  }
+  .icon-lunch:before {
+    content: "\e911";
+  }
+  .icon-breakfast:before {
+    content: "\e912";
+  }
+  .icon-snack:before {
+    content: "\e913";
+  }
+  .icon-uniE911:before {
+    content: "\e914";
+  }
+  .icon-w-icon:before {
+    content: "\e915";
+  }
+  .icon-weight-lbs:before {
+    content: "\e916";
+  }
+  .icon-weight-kg:before {
+    content: "\e917";
+  }
+  .icon-grocery-bag:before {
+    content: "\e918";
+  }
+  .icon-weight-scale:before {
+    content: "\e919";
+  }
+  .icon-look-better-naked-f:before {
+    content: "\e91a";
+  }
+  .icon-running-woman:before {
+    content: "\e91b";
+  }
+  .icon-weight-scale-2:before {
+    content: "\e91c";
+  }
+  .icon-full-body:before {
+    content: "\e91d";
+  }
+  .icon-lsd:before {
+    content: "\e91e";
+  }
+  .icon-intervals:before {
+    content: "\e91f";
+  }
+  .icon-chi:before {
+    content: "\e920";
+  }
+  .icon-upper-body:before {
+    content: "\e921";
+  }
+  .icon-lower-body:before {
+    content: "\e922";
+  }
+  .icon-cooking:before {
+    content: "\e923";
+  }
+  .icon-s-icon-bcg:before {
+    content: "\e924";
+  }
+  .icon-s-icon:before {
+    content: "\e925";
+  }
+  .icon-kitchen-knife:before {
+    content: "\e926";
+  }
+  .icon-warmup:before {
+    content: "\e927";
+  }
+  .icon-fit-toned-f:before {
+    content: "\e928";
+  }
+  .icon-build-physique:before {
+    content: "\e929";
+  }
+  .icon-strong-woman:before {
+    content: "\e92b";
+  }
+  .icon-jogging-woman:before {
+    content: "\e92c";
+  }
+  .icon-logo-text1:before {
+    content: "\e92d";
+  }
+  .icon-logo-text2:before {
+    content: "\e92e";
+  }
+  .icon-off-plan:before {
+    content: "\e92f";
+  }
+  
+  
+  
+  .icon-logo-text .path1:before {
+    content: "\e92d";
+    //color: $theme-primary;
+  }
+  .icon-logo-text .path2:before {
+    content: "\e92e";
+    margin-left: -2.609375em;
+    //color: $theme-primary;
+  }
+  
+  .icon-logo:before {
+    //color: $theme-primary;
+  }
+  
+  .icon-logo-outline:before {
+    //color: $theme-primary;
+  }
+  
+  .icon-s-icon .path1:before {
+    content: "\e922";
+    color: #d9534f;
+  }
+  .icon-s-icon .path2:before {
+    content: "\e923";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-w-icon .path1:before {
+    content: "\e922";
+    color: dodgerblue;
+  }
+  .icon-w-icon .path2:before {
+    content: "\e913";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  
+  .icon-measuring-tape-solid {
+    .path1:before {
+      content: "\e922";
+      color: dodgerblue;
+    }
+  
+    &.faint-color {
+      .path1:before {
+        color: #bbb;
+      }
+    }
+  
+    .path2:before {
+      content: "\e900";
+      margin-left: -1em;
+      color: rgb(255, 255, 255);
+    }
+  }
